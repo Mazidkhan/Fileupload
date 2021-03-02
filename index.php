@@ -3,7 +3,7 @@
   $db = mysqli_connect("localhost", "root", "", "image_upload");
 
   // Initialize message variable
-  $msg = " ";
+  $msg = "";
 
   // If upload button is clicked ...
   if (isset($_POST['upload'])) {
